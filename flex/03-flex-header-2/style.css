@@ -46,3 +46,47 @@ a {
 ul {
   list-style-type: none;
 }
+
+
+  /* This was my solution that was similar but did not include html changes (Left and Right Div's not there)
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+div.logo {
+  width: auto;
+}
+
+ul {
+  display: flex;
+  flex: 1;
+  margin: 0;
+  padding: 15px;
+  gap: 16px;
+}
+
+.notifications {
+  margin: 16px;
+} */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
